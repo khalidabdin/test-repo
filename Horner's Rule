@@ -1,0 +1,11 @@
+# include <stdio.h> 
+
+int main (void)
+{
+	float x, value_of_polygon; //declaring the variables x and value_of_polygon
+	printf("Input the value of x: \n", x);
+	scanf("%f", &x);
+	value_of_polygon = ((3 * x)+ 2) * (x - 5) * (x - 1) * (x + 7) * (x - 6);
+	printf("The value of a polygon = %d\n", value_of_polygon);
+	return 0;
+}
